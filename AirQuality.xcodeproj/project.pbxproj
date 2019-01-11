@@ -14,6 +14,7 @@
 		E21F3B3E21E879B400C4975D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E21F3B3C21E879B400C4975D /* LaunchScreen.storyboard */; };
 		E21F3B4921E879B400C4975D /* AirQualityTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E21F3B4821E879B400C4975D /* AirQualityTests.swift */; };
 		E21F3B5421E879B400C4975D /* AirQualityUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E21F3B5321E879B400C4975D /* AirQualityUITests.swift */; };
+		E21F3B6221E87AF200C4975D /* TrackCitiesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E21F3B6121E87AF200C4975D /* TrackCitiesTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		E21F3B4F21E879B400C4975D /* AirQualityUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AirQualityUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E21F3B5321E879B400C4975D /* AirQualityUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirQualityUITests.swift; sourceTree = "<group>"; };
 		E21F3B5521E879B400C4975D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E21F3B6121E87AF200C4975D /* TrackCitiesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackCitiesTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				E21F3B3A21E879B400C4975D /* Assets.xcassets */,
 				E21F3B3C21E879B400C4975D /* LaunchScreen.storyboard */,
 				E21F3B3F21E879B400C4975D /* Info.plist */,
+				E21F3B6121E87AF200C4975D /* TrackCitiesTableViewController.swift */,
 			);
 			path = AirQuality;
 			sourceTree = "<group>";
@@ -258,6 +261,7 @@
 			files = (
 				E21F3B3621E879B200C4975D /* ViewController.swift in Sources */,
 				E21F3B3421E879B200C4975D /* AppDelegate.swift in Sources */,
+				E21F3B6221E87AF200C4975D /* TrackCitiesTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
