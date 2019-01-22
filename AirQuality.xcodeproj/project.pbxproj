@@ -22,6 +22,7 @@
 		E2A2CD8D21EC5F7100B13192 /* StringPickerTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2A2CD8C21EC5F7100B13192 /* StringPickerTableViewController.swift */; };
 		E2A2CD8F21EC62F100B13192 /* LocationPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2A2CD8E21EC62F100B13192 /* LocationPickerViewController.swift */; };
 		E2A2CD9121EC828B00B13192 /* TrackedCitiesDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2A2CD9021EC828B00B13192 /* TrackedCitiesDataSource.swift */; };
+		E2D7BF9721EF18400070A502 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D7BF9621EF18400070A502 /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +64,7 @@
 		E2A2CD8C21EC5F7100B13192 /* StringPickerTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringPickerTableViewController.swift; sourceTree = "<group>"; };
 		E2A2CD8E21EC62F100B13192 /* LocationPickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationPickerViewController.swift; sourceTree = "<group>"; };
 		E2A2CD9021EC828B00B13192 /* TrackedCitiesDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackedCitiesDataSource.swift; sourceTree = "<group>"; };
+		E2D7BF9621EF18400070A502 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,20 +115,21 @@
 		E21F3B3221E879B200C4975D /* AirQuality */ = {
 			isa = PBXGroup;
 			children = (
-				E21F3B3321E879B200C4975D /* AppDelegate.swift */,
-				E21F3B3521E879B200C4975D /* ViewController.swift */,
-				E21F3B3721E879B200C4975D /* Main.storyboard */,
-				E21F3B3A21E879B400C4975D /* Assets.xcassets */,
-				E21F3B3C21E879B400C4975D /* LaunchScreen.storyboard */,
-				E21F3B3F21E879B400C4975D /* Info.plist */,
-				E21F3B6121E87AF200C4975D /* TrackCitiesTableViewController.swift */,
-				E21F3B6321E87E8200C4975D /* CountriesViewController.swift */,
-				E21F3B6B21E88F2900C4975D /* AirVisualAPI.swift */,
-				E21F3B6D21E8A13300C4975D /* AirQualityStore.swift */,
 				E2A2CD8A21EB26CA00B13192 /* AirQuality.swift */,
-				E2A2CD8C21EC5F7100B13192 /* StringPickerTableViewController.swift */,
+				E21F3B6D21E8A13300C4975D /* AirQualityStore.swift */,
+				E21F3B6B21E88F2900C4975D /* AirVisualAPI.swift */,
+				E21F3B3321E879B200C4975D /* AppDelegate.swift */,
+				E21F3B3A21E879B400C4975D /* Assets.xcassets */,
+				E21F3B6321E87E8200C4975D /* CountriesViewController.swift */,
+				E21F3B3F21E879B400C4975D /* Info.plist */,
+				E21F3B3C21E879B400C4975D /* LaunchScreen.storyboard */,
+				E21F3B3721E879B200C4975D /* Main.storyboard */,
 				E2A2CD8E21EC62F100B13192 /* LocationPickerViewController.swift */,
+				E2A2CD8C21EC5F7100B13192 /* StringPickerTableViewController.swift */,
+				E21F3B6121E87AF200C4975D /* TrackCitiesTableViewController.swift */,
 				E2A2CD9021EC828B00B13192 /* TrackedCitiesDataSource.swift */,
+				E21F3B3521E879B200C4975D /* ViewController.swift */,
+				E2D7BF9621EF18400070A502 /* DetailViewController.swift */,
 			);
 			path = AirQuality;
 			sourceTree = "<group>";
@@ -280,6 +283,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E2D7BF9721EF18400070A502 /* DetailViewController.swift in Sources */,
 				E21F3B3621E879B200C4975D /* ViewController.swift in Sources */,
 				E21F3B3421E879B200C4975D /* AppDelegate.swift in Sources */,
 				E21F3B6E21E8A13300C4975D /* AirQualityStore.swift in Sources */,
