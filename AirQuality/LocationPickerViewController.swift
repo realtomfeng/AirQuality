@@ -24,15 +24,6 @@ final class LocationPickerViewController: UINavigationController, StringPickerTa
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        // pick country
-        //      get countries
-        //      show picker
-        //      get picked country
-        
-        // pick state
-        
-        // pick city
-        
         showCountryPicker()
     }
     
