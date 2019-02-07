@@ -73,7 +73,7 @@ class StringPickerTableViewController: UITableViewController, UISearchBarDelegat
     // MARK - Delegate
 
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        delegate?.stringPickerDidSelect(picker: self, title: titles[indexPath.row])        
+        delegate?.stringPickerDidSelect(picker: self, title: filteredTitles[indexPath.row])        
     }
     
 }
