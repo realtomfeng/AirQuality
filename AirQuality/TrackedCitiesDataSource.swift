@@ -8,9 +8,18 @@
 
 import Foundation
 
+extension NSNotification.Name {
+    static let citiesDidUpdate = NSNotification.Name("citiesDidUpdate")
+}
+
 class TrackedCitiesDataSource {
     
     static let shared = TrackedCitiesDataSource()
     
-    var allTrackedCities =  [AirQuality]()
+    var allTrackedCities = UserDefaults.standard.trackedCities {
+        didSet {
+            NotificationCenter.default.post(name: .citiesDidUpdate, object: nil)
+            UserDefaults.standard.trackedCities = allTrackedCities
+        }
+    }
 }

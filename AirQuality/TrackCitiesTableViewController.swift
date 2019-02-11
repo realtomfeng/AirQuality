@@ -16,9 +16,13 @@ class TrackedCitiesTableViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        api.updateCities()
+        
         NotificationCenter.default.addObserver(forName: .citiesDidUpdate, object: nil, queue: nil) { _ in
             self.tableView.reloadData()
         }
+        
+        NotificationCenter.default.addObserver(self, selector: #selector(didBecomeActive), name: UIApplication.didBecomeActiveNotification, object: nil)
     }
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -56,4 +60,10 @@ class TrackedCitiesTableViewController: UITableViewController {
         }
     }
 
+}
+
+extension TrackedCitiesTableViewController {
+    @objc private func didBecomeActive() {
+        api.updateCities()
+    }
 }

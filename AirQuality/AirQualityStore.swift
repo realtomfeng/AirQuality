@@ -107,4 +107,23 @@ class AirQualityStore {
         }
         task.resume()
     }
+    
+    func updateCities() -> Void {
+        DispatchQueue.main.async {
+            NotificationCenter.default.post(name: NSNotification.Name(rawValue: "citiesDidUpdate"), object: nil)
+        }
+        for (index, city) in TrackedCitiesDataSource.shared.allTrackedCities.enumerated() {
+            fetchAirQualityFor(city: city.city, state: city.state, country: city.country) {
+                (airQualityResult) -> Void in
+                switch airQualityResult {
+                case let .success(airQuality):
+                    TrackedCitiesDataSource.shared.allTrackedCities[index] = airQuality
+                    
+                case let .failure(error):
+                    print("Got error updating cities", error)
+                }
+            }
+        }
+    }
+    
 }
