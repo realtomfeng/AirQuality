@@ -30,7 +30,7 @@ class DetailViewController: UIViewController {
         cityName.text = airQuality.city
         self.view.backgroundColor = backgroundColor()
         guard let usAQI = airQuality.pollution?.aqius else { return }
-        USAQI.text = String(usAQI)
+        USAQI.text = "AQI: " + String(usAQI)
         date.text = airQuality.pollution?.getDate(date: (airQuality.pollution?.timestamp)!)
     }
     
