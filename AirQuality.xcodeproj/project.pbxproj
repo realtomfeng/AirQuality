@@ -17,6 +17,7 @@
 		E21F3B6C21E88F2900C4975D /* AirVisualAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = E21F3B6B21E88F2900C4975D /* AirVisualAPI.swift */; };
 		E21F3B6E21E8A13300C4975D /* AirQualityStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = E21F3B6D21E8A13300C4975D /* AirQualityStore.swift */; };
 		E251C94921F7017E00A8CA1D /* UserDefaultsExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E251C94821F7017E00A8CA1D /* UserDefaultsExtensions.swift */; };
+		E2825B42221401B0003843B5 /* advisory.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2825B41221401B0003843B5 /* advisory.swift */; };
 		E2A2CD8B21EB26CA00B13192 /* AirQuality.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2A2CD8A21EB26CA00B13192 /* AirQuality.swift */; };
 		E2A2CD8D21EC5F7100B13192 /* StringPickerTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2A2CD8C21EC5F7100B13192 /* StringPickerTableViewController.swift */; };
 		E2A2CD8F21EC62F100B13192 /* LocationPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2A2CD8E21EC62F100B13192 /* LocationPickerViewController.swift */; };
@@ -58,6 +59,7 @@
 		E21F3B6B21E88F2900C4975D /* AirVisualAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirVisualAPI.swift; sourceTree = "<group>"; };
 		E21F3B6D21E8A13300C4975D /* AirQualityStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirQualityStore.swift; sourceTree = "<group>"; };
 		E251C94821F7017E00A8CA1D /* UserDefaultsExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsExtensions.swift; sourceTree = "<group>"; };
+		E2825B41221401B0003843B5 /* advisory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = advisory.swift; sourceTree = "<group>"; };
 		E2A2CD8A21EB26CA00B13192 /* AirQuality.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirQuality.swift; sourceTree = "<group>"; };
 		E2A2CD8C21EC5F7100B13192 /* StringPickerTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringPickerTableViewController.swift; sourceTree = "<group>"; };
 		E2A2CD8E21EC62F100B13192 /* LocationPickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationPickerViewController.swift; sourceTree = "<group>"; };
@@ -127,6 +129,7 @@
 				E2A2CD9021EC828B00B13192 /* TrackedCitiesDataSource.swift */,
 				E2D7BF9621EF18400070A502 /* DetailViewController.swift */,
 				E251C94821F7017E00A8CA1D /* UserDefaultsExtensions.swift */,
+				E2825B41221401B0003843B5 /* advisory.swift */,
 			);
 			path = AirQuality;
 			sourceTree = "<group>";
@@ -288,6 +291,7 @@
 				E2A2CD9121EC828B00B13192 /* TrackedCitiesDataSource.swift in Sources */,
 				E2A2CD8D21EC5F7100B13192 /* StringPickerTableViewController.swift in Sources */,
 				E2A2CD8F21EC62F100B13192 /* LocationPickerViewController.swift in Sources */,
+				E2825B42221401B0003843B5 /* advisory.swift in Sources */,
 				E21F3B6221E87AF200C4975D /* TrackCitiesTableViewController.swift in Sources */,
 				E21F3B6C21E88F2900C4975D /* AirVisualAPI.swift in Sources */,
 			);
