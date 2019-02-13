@@ -9,5 +9,10 @@
 import Foundation
 
 enum advisory {
-    
+    case active
+    case doNotActive
+    case openWindow
+    case doNotOpenWindow
+    case airPurifier
+    case dustMask
 }
