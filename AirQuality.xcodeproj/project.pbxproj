@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		E21F3B3421E879B200C4975D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E21F3B3321E879B200C4975D /* AppDelegate.swift */; };
 		E21F3B3921E879B200C4975D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E21F3B3721E879B200C4975D /* Main.storyboard */; };
-		E21F3B3B21E879B400C4975D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E21F3B3A21E879B400C4975D /* Assets.xcassets */; };
 		E21F3B3E21E879B400C4975D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E21F3B3C21E879B400C4975D /* LaunchScreen.storyboard */; };
 		E21F3B4921E879B400C4975D /* AirQualityTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E21F3B4821E879B400C4975D /* AirQualityTests.swift */; };
 		E21F3B5421E879B400C4975D /* AirQualityUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E21F3B5321E879B400C4975D /* AirQualityUITests.swift */; };
@@ -17,6 +16,9 @@
 		E21F3B6C21E88F2900C4975D /* AirVisualAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = E21F3B6B21E88F2900C4975D /* AirVisualAPI.swift */; };
 		E21F3B6E21E8A13300C4975D /* AirQualityStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = E21F3B6D21E8A13300C4975D /* AirQualityStore.swift */; };
 		E251C94921F7017E00A8CA1D /* UserDefaultsExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E251C94821F7017E00A8CA1D /* UserDefaultsExtensions.swift */; };
+		E2528D7C221691A6001CB841 /* AdvisoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2528D7B221691A6001CB841 /* AdvisoryCell.swift */; };
+		E26B800422225D5000EED507 /* UIColorExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E26B800322225D5000EED507 /* UIColorExtensions.swift */; };
+		E27DECA0221A7C2600B001C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E27DEC9F221A7C2600B001C5 /* Assets.xcassets */; };
 		E2825B42221401B0003843B5 /* advisory.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2825B41221401B0003843B5 /* advisory.swift */; };
 		E2A2CD8B21EB26CA00B13192 /* AirQuality.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2A2CD8A21EB26CA00B13192 /* AirQuality.swift */; };
 		E2A2CD8D21EC5F7100B13192 /* StringPickerTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2A2CD8C21EC5F7100B13192 /* StringPickerTableViewController.swift */; };
@@ -46,7 +48,6 @@
 		E21F3B3021E879B200C4975D /* AirQuality.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AirQuality.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E21F3B3321E879B200C4975D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E21F3B3821E879B200C4975D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		E21F3B3A21E879B400C4975D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E21F3B3D21E879B400C4975D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E21F3B3F21E879B400C4975D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E21F3B4421E879B400C4975D /* AirQualityTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AirQualityTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -59,6 +60,9 @@
 		E21F3B6B21E88F2900C4975D /* AirVisualAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirVisualAPI.swift; sourceTree = "<group>"; };
 		E21F3B6D21E8A13300C4975D /* AirQualityStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirQualityStore.swift; sourceTree = "<group>"; };
 		E251C94821F7017E00A8CA1D /* UserDefaultsExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsExtensions.swift; sourceTree = "<group>"; };
+		E2528D7B221691A6001CB841 /* AdvisoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvisoryCell.swift; sourceTree = "<group>"; };
+		E26B800322225D5000EED507 /* UIColorExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorExtensions.swift; sourceTree = "<group>"; };
+		E27DEC9F221A7C2600B001C5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E2825B41221401B0003843B5 /* advisory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = advisory.swift; sourceTree = "<group>"; };
 		E2A2CD8A21EB26CA00B13192 /* AirQuality.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirQuality.swift; sourceTree = "<group>"; };
 		E2A2CD8C21EC5F7100B13192 /* StringPickerTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringPickerTableViewController.swift; sourceTree = "<group>"; };
@@ -115,11 +119,11 @@
 		E21F3B3221E879B200C4975D /* AirQuality */ = {
 			isa = PBXGroup;
 			children = (
+				E27DEC9F221A7C2600B001C5 /* Assets.xcassets */,
 				E2A2CD8A21EB26CA00B13192 /* AirQuality.swift */,
 				E21F3B6D21E8A13300C4975D /* AirQualityStore.swift */,
 				E21F3B6B21E88F2900C4975D /* AirVisualAPI.swift */,
 				E21F3B3321E879B200C4975D /* AppDelegate.swift */,
-				E21F3B3A21E879B400C4975D /* Assets.xcassets */,
 				E21F3B3F21E879B400C4975D /* Info.plist */,
 				E21F3B3C21E879B400C4975D /* LaunchScreen.storyboard */,
 				E21F3B3721E879B200C4975D /* Main.storyboard */,
@@ -130,6 +134,8 @@
 				E2D7BF9621EF18400070A502 /* DetailViewController.swift */,
 				E251C94821F7017E00A8CA1D /* UserDefaultsExtensions.swift */,
 				E2825B41221401B0003843B5 /* advisory.swift */,
+				E2528D7B221691A6001CB841 /* AdvisoryCell.swift */,
+				E26B800322225D5000EED507 /* UIColorExtensions.swift */,
 			);
 			path = AirQuality;
 			sourceTree = "<group>";
@@ -257,7 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E21F3B3E21E879B400C4975D /* LaunchScreen.storyboard in Resources */,
-				E21F3B3B21E879B400C4975D /* Assets.xcassets in Resources */,
+				E27DECA0221A7C2600B001C5 /* Assets.xcassets in Resources */,
 				E21F3B3921E879B200C4975D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -285,6 +291,8 @@
 			files = (
 				E2D7BF9721EF18400070A502 /* DetailViewController.swift in Sources */,
 				E251C94921F7017E00A8CA1D /* UserDefaultsExtensions.swift in Sources */,
+				E26B800422225D5000EED507 /* UIColorExtensions.swift in Sources */,
+				E2528D7C221691A6001CB841 /* AdvisoryCell.swift in Sources */,
 				E21F3B3421E879B200C4975D /* AppDelegate.swift in Sources */,
 				E21F3B6E21E8A13300C4975D /* AirQualityStore.swift in Sources */,
 				E2A2CD8B21EB26CA00B13192 /* AirQuality.swift in Sources */,
